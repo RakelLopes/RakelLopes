@@ -1,0 +1,79 @@
+.pageStyles {
+    height: 100vh;
+    background: #0c101c;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        display: none;
+    }
+
+    & > * {
+        height: 100%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+
+        &.activeContainer {
+            z-index: 10;
+        }
+
+        [data-show] {
+            position: relative !important;
+            overflow: hidden;
+            border-radius: .25em;
+            margin: .15em;
+
+            & > *:not(.elementViewer) {
+                opacity: 0;
+                pointer-events: none;
+            }
+        }
+
+        .elementViewer {
+            background: white;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            translate: -101%;
+            pointer-events: none;
+            animation: showElement .75s ease-in forwards;
+        }
+
+        *:has(> .elementViewer) > *:not(.elementViewer) {
+            animation: showSiblings .75s ease-in forwards;
+        }
+
+        &:nth-child(even) {
+            background-color: #101a30;
+        }
+    }
+}
+
+@keyframes showSiblings {
+    0%, 50% {
+        opacity: 0;
+    }
+    51%, 100% {
+        opacity: 1;
+        pointer-events: initial;
+    }
+}
+
+@keyframes showElement {
+    0% {
+        translate: -101%;
+    }
+    50% {
+        translate: 0;
+    }
+    100% {
+        translate: 101%;
+    }
+}

@@ -1,0 +1,12 @@
+.preloaderStyles {
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    translate: 0 100%;
+    transition: translate .5s ease-in-out;
+    pointer-events: auto;
+}
+
+.notRendered {
+    translate: 0 0;
+}
