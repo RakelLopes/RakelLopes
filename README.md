@@ -10,7 +10,7 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/rakellopes/snk/output/github-contribution-grid-snake-dark.svg"
+    srcset="https://raw.githubusercontent.com/rakellopes/snk/output/github-user-contribution.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
