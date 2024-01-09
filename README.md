@@ -3,4 +3,4 @@
    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakellopes&title_color=ffffff&text_color=dddddd&border_color=555555&bg_color=111111&locale=pt-BR&border_radius=10&size_weight=0.5&count_weight=0.5&layout=compact"/>
 </div>
 
-![github-user-contribution](https://user-images.githubusercontent.com/88547273/235832501-4fd4951a-1e93-4cca-a905-f286a9afbd11.svg)
+![Snake animation](https://github.com/rakellopes/rakellopes/blob/output/github-contribution-grid-snake.svg)
