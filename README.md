@@ -10,18 +10,18 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/RakelLopes/assets/github-contribution-grig-snake.svg"
+    srcset="https://raw.githubusercontent.com/rakellopes/snk/output/github-user-contribution.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/rakellopes/assets/github-contributionsvg"
+    srcset="https://raw.githubusercontent.com/rakellopes/snk/output/github-contribution-grid-snake.svg"
   />
   <img
     alt="github contribution grid snake animation"
     src="https://raw.githubusercontent.com/rakellopes/snk/output/github-contribution-grid-snake.svg"
   />
 </picture> 
-<div  align="center"> 
+<div align="center"> 
   <div style="display: inline_block"><br>
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
