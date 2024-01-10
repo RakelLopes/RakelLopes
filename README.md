@@ -6,7 +6,6 @@
   <img height="160em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakellopes&&icon_color=666666&border_color=111111&bg_color=111111&layout=compact&langs_count=7&theme=react" />
   <img align="center" width="990" height="8" src="https://media.tenor.com/3HFKgdT-FiQAAAAi/line-rainbow.gif">
 </div>
-<br>
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -22,6 +21,7 @@
   />
 </picture> 
 <div align="center"> 
+  <img align="center" width="990" height="8" src="https://media.tenor.com/3HFKgdT-FiQAAAAi/line-rainbow.gif">
   <div style="display: inline_block"><br>
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
