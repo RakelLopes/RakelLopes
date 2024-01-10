@@ -10,15 +10,15 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/rakellopes/snk/output/github-user-contribution.svg"
+    srcset="./github-snake-dark.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/rakellopes/snk/output/github-contribution-grid-snake.svg"
+    srcset="./github-snake-white.svg"
   />
   <img
     alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/rakellopes/snk/output/github-contribution-grid-snake.svg"
+    src="./github-snake-dark.svg"
   />
 </picture> 
 <div align="center"> 
